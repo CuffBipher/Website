@@ -1,0 +1,14 @@
+body{
+    background-color:black;
+    color:limegreen;
+    font-family:'Lucida Console','Open Sans';
+}
+
+header{
+    font-family:'Bitcount Grid Double','Lucida Console','Open Sans';
+    background-color:rgba(0, 0, 22, 0.548)
+}
+
+h2{
+    font-family:'Bitcount Grid Double';
+}
