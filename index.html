@@ -5,44 +5,46 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="./styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
-
     </head>
     <body>
         <!-- Make sure to include a legend with the meaning of each stats on a stat sheet. 10 being the human average for each stat. -->
         <!-- My website will be a database of cryptids with their power levels! -->
-         <header>
+         <header id = "header">
 
             <h1>Cryptid Catalogue</h1>
             
-            <h3>Jump to: </h3>
-            <ul>
-                <li><a href="#bigfoot">Bigfoot</a></li>
-                <li><a href="#footer">Bottom</a></li>
-                <li><a href="./pages/aboutUs.html">About Us</a></li>
-            </ul>
+            <section id="links">
+                <h3>Jump to: </h3>
+                <ul class="links">
+                 <li><a href="#bigfoot">Bigfoot</a></li>
+                  <li><a href="#footer">Bottom</a></li>
+                 <li><a href="#lochness">Loch Ness Monster</a></li>
+                  <li><a href="./pages/PowerRankings.html">Power Rankings</a></li>
+                 </ul>
+            </section>
 
         </header>
             <!-- List entry #1, this will be the basis for all following articles. -->
-             <section id="bigfoot">
+             <section class="cryptid" id="bigfoot">
                 <h2>Bigfoot</h2>
 
-                <img src = "bigfootJuliaKeirns.jpg"
+                <img src="bigfootJuliaKeirns.jpg"
                 alt="Statue of Bigfoot Smiling"
                 width="400"
                 height="300">
 
-                <img src = "https://cdn.pixabay.com/photo/2024/07/02/06/07/ai-generated-8866748_960_720.png"
+                <img src="https://cdn.pixabay.com/photo/2024/07/02/06/07/ai-generated-8866748_960_720.png"
                 alt="Bigfoot walking through the jungle"
                 width="500"
                 height="300">
 
-                <p>This image is from: <a href ="https://pixabay.com/illustrations/ai-generated-bigfoot-sasquatch-8866748/">Pixabay</a></p>
+                <p>This image is from: <a href="https://pixabay.com/illustrations/ai-generated-bigfoot-sasquatch-8866748/">Pixabay</a></p>
 
-                <p>Bigfoot are a species of apelike creatures that walk upright, like humans, but are far larger and more reclusive, leading to their scarce sightings.</p>
+                <p><strong>Bigfoot</strong> are a species of apelike creatures that walk upright, like humans, but are far larger and more reclusive, leading to their scarce sightings.</p>
 
                 <h3>Stats:</h3>
 
-                <p>(Note, stats are numbered so that 10 = the human average.)</p>
+                <p class="statsLegend"><em>(Note, stats are numbered so that 10 = the human average.)</em></p>
                 <ul>
                     <li>
                         <h4>STRength: 20</h4>
@@ -72,9 +74,61 @@
             </a>
             <p></p>
             </section>
+<!-- spacer in between monster entries----------- -->
+             <section class="cryptid" id="lochness">
+                <h2>The Loch Ness Monster</h2>
+
+                <img src = "https://cdn.pixabay.com/photo/2024/05/31/11/44/ai-generated-8800421_960_720.jpg"
+                alt="Statue of Bigfoot Smiling"
+                width="400"
+                height="300">
+
+                <img src = "https://cdn.pixabay.com/photo/2024/07/02/06/07/ai-generated-8866748_960_720.png"
+                alt="Bigfoot walking through the jungle"
+                width="500"
+                height="300">
+
+                <p>This image is from: <a href ="https://pixabay.com/illustrations/ai-generated-bigfoot-sasquatch-8866748/">Pixabay</a></p>
+
+                <p>The <strong>Loch Ness Monster</strong> are a species of apelike creatures that walk upright, like humans, but are far larger and more reclusive, leading to their scarce sightings.</p>
+
+                <h3>Stats:</h3>
+
+                <p class="statsLegend">(Note, stats are numbered so that 10 = the human average.)</p>
+                <ul>
+                    <li>
+                        <h4>STRength: 20</h4>
+                        <p>20 strength is incredibly high, this creature is not to be trifled with, long range will be your best bet if the creature picks a fight with you.</p>
+                    </li>
+                    <li>
+                        <h4>DEXterity: 8</h4>
+                        <p>Many sightings of Bigfoot claim it to be a lumbering tower. Walking without much grace, or speed. Likely has diminished reflexes, although, try to avoid trees, as a descendent of apes, the Bigfoot likely has enhanced climbing prowess.</p>
+                    </li>
+                    <li>
+                        <h4>CHArisma: 8</h4>
+                        <p>Out of sight, out of mind. Bigfoot, as far as we know, are not likely to make contact with other species, their nature among peers has yet to be studied.</p>
+                    </li>
+                    <li>
+                        <h4>WISdom: 16</h4>
+                        <p>Spending the entirety of it's life in the woods, it has become accustomed to nature, and may have learned druidic spells.</p>
+                    </li>
+                    <li>
+                        <h4>INTellect: 10</h4>
+                        <p>This creature may or may not know much, but considering it avoids us, I'd like to think it might be a little more intelligent than current knowledge tends to suggest.</p>
+                    </li>
+                </ul>
+
+            <a href="https://en.wikipedia.org/wiki/Bigfoot"
+                target="_blank">
+                Wikipedia Article (Opens in new tab)
+            </a>
+
+
+
             <!-- Don't forget to make a footer.  -->
             <footer id="footer">
                 <p>Website founded by: Tyreice</p>
+                <a href="#header">Back to Top</a>
             </footer>
         </body>
 </html>

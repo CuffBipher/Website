@@ -1,14 +1,83 @@
+/* Style Sheet for both the Index and the Power Ranking Page */
+
+/* Universal Selector */
+/**{
+
+}*/
+
+
 body{
     background-color:black;
     color:limegreen;
-    font-family:'Lucida Console','Open Sans';
+    font-family:'Courier New','Open Sans';
 }
 
+/* Defined on line 12, changes will show at the top of the screen. */
 header{
     font-family:'Bitcount Grid Double','Lucida Console','Open Sans';
-    background-color:rgba(0, 0, 22, 0.548)
+    background-color:rgba(0, 0, 22, 0.548);
+    border: 1px dotted limegreen;
+    border-radius: 20px;
+    text-align: center;
 }
 
+section{
+    margin: 25px 50px 75px 100px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+/* The h3 class used for the link list */
 h2{
     font-family:'Bitcount Grid Double';
+}
+
+strong{
+    color:#ff0000;
+    font-weight:bold;
+    font-style:italic;
+    line-height:1.8;
+}
+
+em{
+    line-height: 1.6;
+}
+
+h4{
+    font-style:oblique;
+}
+
+ul a{
+    color: limegreen;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cryptid{
+    background-color:#1f1100;
+    color:#00ffff;
+    border: 2px dashed red;
+    border-radius: 20px;
+}
+
+.statsLegend{
+    font-weight: bold;
+    font-size: large;
+}
+
+img{
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+}
+
+.links{
+    border-style: double;
+    width:15%;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-right:100px;
 }
