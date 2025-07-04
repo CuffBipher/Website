@@ -9,7 +9,9 @@
 body{
     background-color:black;
     color:limegreen;
-    font-family:'Courier New','Open Sans';
+    font-family:'Courier New', monospace;
+    font-size:large;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.644);
 }
 
 /* Defined on line 12, changes will show at the top of the screen. */
@@ -21,6 +23,15 @@ header{
     text-align: center;
 }
 
+header h3{
+    text-align: left;
+    padding-left: 120px;
+}
+
+header a{
+    color:limegreen;
+}
+
 section{
     margin: 25px 50px 75px 100px;
     padding-left: 20px;
@@ -30,6 +41,7 @@ section{
 /* The h3 class used for the link list */
 h2{
     font-family:'Bitcount Grid Double';
+    text-align:center;
 }
 
 strong{
@@ -47,8 +59,7 @@ h4{
     font-style:oblique;
 }
 
-ul a{
-    color: limegreen;
+a{
     text-decoration:none;
 }
 
@@ -57,10 +68,17 @@ a:hover {
 }
 
 .cryptid{
-    background-color:#1f1100;
-    color:#00ffff;
-    border: 2px dashed red;
+    border: 2px double rgb(0, 255, 21);
     border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.cryptid img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
 }
 
 .statsLegend{
@@ -72,6 +90,11 @@ img{
     border-radius: 8px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    opacity: 1;
+}
+
+img:hover{
+    opacity: 0.5;
 }
 
 .links{
@@ -79,5 +102,77 @@ img{
     width:15%;
     padding-top:10px;
     padding-bottom:10px;
-    margin-right:100px;
+    color:limegreen;
+}
+
+#lochness{
+    background-color:rgb(0, 26, 255);
+    color:red;
+    background-image: url("https://bgr.com/wp-content/uploads/2022/06/AdobeStock_294161322.jpeg?resize=1020%2C574&quality=82");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.container{
+    max-width: 2000px;
+    font-size: 400%;
+    padding-left:100px;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 20px;
+}
+
+.container ol p{
+    font-size: 30px;
+}
+
+div ol a{
+    color:limegreen;
+}
+
+#bigfoot{
+    background-color:#1f1100;
+    color:#ffffff;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/15/18/12/forest-1258845_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-shadow: rgb(0, 0, 0);
+}
+
+.tierList{
+    text-size: 500%;
+    margin: 0 auto;
+}
+
+.sources{
+    text-size: 200%;
+}
+
+.rank{
+    display:inline-block;
+    text-align: left;
+    background-image: url("https://cdn.pixabay.com/photo/2018/10/11/17/44/wpap-3740411_960_720.png");
+    color:rgb(255, 251, 0);
+    text-align:center;
+    text-style:bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+#mothman{
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/5593.jpg");
+    background-size:cover;
+    color:rgb(255, 255, 0);
+    text-shadow:black;
+}
+
+#wendigo{
+    background-image: url("https://cdn.pixabay.com/photo/2022/11/15/12/23/winter-7593872_960_720.jpg");
+    background-size:cover;
+    color:rgb(0, 0, 0);
+}
+
+#chupacabra{
+    background-image: url("https://www.parkerpalmsprings.com/wp-content/uploads/2024/07/PPS_Offer-Stargazing_Header-Image_1800x1200_result.webp");
+    background-size:cover;
 }
